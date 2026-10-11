@@ -21,6 +21,7 @@ If you only have a few minutes, open these in order:
 2. **[`report/part1_findings.pdf`](report/part1_findings.pdf)** — Part 1 in detail: which patterns we found and the evidence for each.
 3. **[`report/part2_findings.pdf`](report/part2_findings.pdf)** — Part 2 in detail: the three new features and their tests.
 4. **[`report/part3_findings.pdf`](report/part3_findings.pdf)** — Part 3 in detail: the four-language comparison and its metrics.
+5. **[`Aditya_findings/Part1_Findings/data/llm.csv`](Aditya_findings/Part1_Findings/data/llm.csv)** — **LLM chat links for each team member.**
 
 Everything else in this repository is **supporting evidence** (source code, tests, data and diagrams) behind the claims in those PDFs.
 
@@ -73,6 +74,7 @@ Team_B9_DP/
 | [`data/patterns.csv`](Aditya_findings/Part1_Findings/data/patterns.csv) | Table of the confirmed patterns |
 | [`data/rejected_candidates.csv`](Aditya_findings/Part1_Findings/data/rejected_candidates.csv) | Patterns we considered and rejected, with the reason for each |
 | [`data/pattern_counts.csv`](Aditya_findings/Part1_Findings/data/pattern_counts.csv) | Summary counts |
+| [`data/llm.csv`](Aditya_findings/Part1_Findings/data/llm.csv) | **LLM chat links for each team member** |
 | [`diagrams/`](Aditya_findings/Part1_Findings/diagrams/) | UML diagrams for Observer and Composite, plus an architecture diagram (`.png` images, `.puml` sources) |
 | [`evidence/verification_notes.md`](Aditya_findings/Part1_Findings/evidence/verification_notes.md) | How each finding was checked against the real source |
 
@@ -97,6 +99,8 @@ Each feature folder has a single evidence file. **Read that file first**, becaus
 | [`metrics/pattern_metrics.csv`](Aditya_findings/Part3-cross-language/metrics/pattern_metrics.csv) | Structural metrics: classes, interfaces, inheritance depth and dependencies |
 
 ### AI usage record → `Aditya_findings/LLM_RECORDS/`
+
+**LLM chat links:** every team member's LLM chat links are in **[`Aditya_findings/Part1_Findings/data/llm.csv`](Aditya_findings/Part1_Findings/data/llm.csv)**. Click a link in that file to open the conversation.
 
 [`LLM_RECORDS.md`](Aditya_findings/LLM_RECORDS/LLM_RECORDS.md) lists the parts of the work that used an AI assistant. For each one it shows the evidence we used to check it independently and labels the result **CONFIRMED**, **PARTIALLY VERIFIED** or **NOT RECOVERABLE**.
 
